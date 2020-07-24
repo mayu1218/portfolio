@@ -84,16 +84,17 @@ body {
     padding: 50px;
   }
   .top h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
   .profile-flex {
     display: block;
   }
-  .profile-left ,.profile-right {
+  .profile-left {
     width: 100%;
   }
   .profile-right {
-    margin-top: 45px;
+    width: 85%;
+    margin: 45px auto 0 auto;
   }
 }
 /* works */
@@ -144,7 +145,7 @@ body {
 @media screen and (max-width: 650px) {
   .works-list {
     display: block;
-    width: 60%;
+    width: 75%;
     margin: 0 auto 40px auto;
   }
   .works-list img {
